@@ -71,16 +71,6 @@ http://localhost:8501
 6. Ask questions in the chat input.
 7. Review the top 3 retrieved chunks and their similarity scores.
 
-## How It Was Built
-
-1. Use the Day 4 notebook pattern for RAG:
-   PDF loading -> chunking -> vector storage -> similarity search -> answer generation
-2. Use the Day 3 notebook pattern for Groq chat:
-   API key -> model selection -> chat completion -> streaming response
-3. Combine both in a Streamlit interface.
-4. Fix retrieval to `K=3`.
-5. Show similarity and source excerpts in the assistant response.
-
 ## Notes
 
 - This app uses Groq for generation only.
