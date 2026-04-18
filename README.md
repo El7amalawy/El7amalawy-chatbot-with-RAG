@@ -27,8 +27,7 @@ A Streamlit chatbot with RAG that lets you upload multiple PDF files, search acr
 .
 ├── app.py
 ├── requirements.txt
-├── README.md
-└── RAG/
+└── README.md
 ```
 
 ## How To Run
